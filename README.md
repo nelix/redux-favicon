@@ -35,7 +35,7 @@ npm i -S redux-favicon
 
 #### Also available: UMD
 
-UMD builds are also available, for single-file usage or quick hacking in a JSbin. Simply add `dist/redux-favicon.js` or `dist/redux-favicon.min.js` to your file in a `<script>` tag. The middleware will be available under `ReduxSounds`.
+UMD builds are also available, for single-file usage or quick hacking in a JSbin. Simply add `dist/redux-favicon.js` or `dist/redux-favicon.min.js` to your file in a `<script>` tag. The middleware will be available under `ReduxFavicon`.
 
 
 ## Setup
@@ -46,7 +46,7 @@ Import the module into your configure-store file, pre-load it with settings, and
 /* configure-store.js */
 
 import { createStore, combineReducers, applyMiddleware } from 'redux';
-import faviconMiddleware from 'redux-sounds';
+import faviconMiddleware from 'redux-favicon';
 
 import reducer from '../reducers';
 
